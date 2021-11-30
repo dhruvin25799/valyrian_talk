@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --primary: #fa0808;
+    --primary: #C38D5F;
     --black: #333333;
-    --width-break:600px
+    --secondary: #331C0E;
+    --width-break: 600px
 }
 
 body {
     margin: 0;
-    font-family: 'Zen Dots', cursive;
-    color: #333333;
+    font-family: 'Cinzel', serif;
+    color: #FCFEF0;
 }
 
 nav {
@@ -25,6 +25,11 @@ main {
     margin: auto;
     padding: 1rem;
     max-width: var(--width-break);
+}
+
+#header {
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 textarea {
@@ -43,15 +48,13 @@ button {
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
     font-size: large;
 }
 
-button:hover{
-    background-color: var(--black);
-    color: var(--primary);
+button:hover {
+    background-color: var(--secondary);
+    color: #ffffff;
 }
-
 
 #translate-output {
     box-sizing: border-box;
@@ -60,6 +63,8 @@ button:hover{
     min-height: 10vh;
     max-height: 20vh;
     border: 1px solid var(--black);
+    color: black;
+    padding: 1rem;
 }
 
 footer {
